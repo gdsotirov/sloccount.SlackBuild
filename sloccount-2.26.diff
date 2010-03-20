@@ -1,0 +1,21 @@
+diff -N -U 3 -r sloccount-2.26-orig/makefile sloccount-2.26/makefile
+--- sloccount-2.26-orig/makefile	2004-08-01 21:52:06.000000000 +0300
++++ sloccount-2.26/makefile	2010-03-20 15:19:37.000000000 +0200
+@@ -28,7 +28,7 @@
+ # Set this for where to store the man pages and executables.
+ # If you want to store this as part of an official distribution,
+ # change this to "/usr":
+-PREFIX=/usr/local
++PREFIX=/usr
+ 
+ # Set "EXE_SUFFIX" to ".exe" if you're running on Windows, like this:
+ # EXE_SUFFIX=.exe
+@@ -37,7 +37,7 @@
+ # Set this to your C compiler, if it's not "gcc"; a likely alternative is "cc".
+ # The "-Wall" option turns on warnings in gcc.  gcc users might also want
+ # to consider using "-Werror", which turns warnings into errors.
+-CC=gcc -Wall
++CC=gcc -Wall $(CFLAGS)
+ 
+ # Set this to the name of your "install" program.  On some systems,
+ # "install -C" would be useful (so unchanged files won't be modified),
