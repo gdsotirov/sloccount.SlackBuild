@@ -1,0 +1,18 @@
+sloccount: SLOCCount (Measures source lines of code (SLOC) in programs)
+sloccount:
+sloccount:  SLOCCount (pronounced "sloc-count") is a suite of programs for
+sloccount: counting physical source lines of code (SLOC) in potentially
+sloccount: large software systems (thus, SLOCCount is a "software metrics
+sloccount: tool" or "software measurement tool").
+sloccount:  SLOCCount can count physical SLOC for a wide number of languages;
+sloccount: listed alphabetically, they are: Ada, Assembly, awk, Bourne shell,
+sloccount: C, C++, C shell, COBOL, Expect, Fortran, Java, lex/flex, LISP
+sloccount: (including Scheme), Modula-3, Objective-C, Pascal, Perl, PHP,
+sloccount: Python, sed, TCL, and Yacc.
+sloccount:  SLOCCount can automatically determine if a file is a source code
+sloccount: file or not, and if so, which language it's written in.  As a
+sloccount: result, you can analyze large systems completely automatically.
+sloccount:  SLOCCount also includes some report-generating tools to collect
+sloccount: the data generated and present it in several different formats.
+sloccount:
+sloccount: Packaged by Georgi D. Sotirov <gdsotirov@dir.bg>
