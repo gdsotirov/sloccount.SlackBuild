@@ -15,4 +15,4 @@ sloccount: result, you can analyze large systems completely automatically.
 sloccount:  SLOCCount also includes some report-generating tools to collect
 sloccount: the data generated and present it in several different formats.
 sloccount:
-sloccount: Packaged by Georgi D. Sotirov <gdsotirov@dir.bg>
+sloccount: Packaged by Georgi D. Sotirov <gdsotirov@gmail.com>
